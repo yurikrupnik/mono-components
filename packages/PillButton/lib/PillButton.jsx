@@ -10,7 +10,7 @@ const textColor = '#333';
 
 const StyledButton = styled(Button)`
     &&: {
-        width: 16px
+        width: 15px
         padding: 3.5 0;
         min-height: 22px;
         font-size: 11px;
