@@ -1,6 +1,6 @@
 import React from 'react'; // eslint-disable-line
 import { render, cleanup } from 'react-testing-library';
-import Component from '../lib/PillButton';
+import Component from '../lib';
 
 afterEach(cleanup);
 

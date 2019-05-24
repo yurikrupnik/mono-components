@@ -1,12 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import base-button from 'base-button';
+import BaseButton from 'base-button';
 // import pill-button from 'pill-button';
 // np
 const ButtonGroup = (props) => {
     const { data } = props;
     return (
-        <div>sd</div>
+        <div>
+            {
+                data.map(v => (<BaseButton key={v.label} onClick={v.onClick}>{v.label}</BaseButton>))
+            }
+        </div>
     )
 };
 
