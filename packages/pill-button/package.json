@@ -13,7 +13,8 @@
   "peerDependencies": {
     "prop-types": "^15.*",
     "react": "^16.8.*",
-    "styled-components": "^4.*"
+    "styled-components": "^4.*",
+    "@material-ui/core": "^3.*"
   },
   "directories": {
     "lib": "lib",
