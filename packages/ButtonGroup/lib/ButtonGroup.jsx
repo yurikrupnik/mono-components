@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // import BaseButton from 'BaseButton';
-import BaseButton from 'PillButton';
+// import PillButton from 'pill-button';
 // np
 const ButtonGroup = (props) => {
     const { data } = props;
     return (
-        <BaseButton data={data} />
+        <div>sd</div>
     )
 };
 

@@ -4,13 +4,15 @@
   "description": "mono-components using material",
   "main": "index.js",
   "scripts": {
-    "test1": "jest",
-    "test": "lerna exec --parallel -- jest",
-    "lint": "lerna exec --parallel -- eslint lib",
+    "test": "jest",
+    "te": "lerna exec --parallel -- jest",
+    "pretest": "lerna exec --parallel -- eslint lib",
     "watch": "lerna exec --parallel -- rollup -f cjs -i lib/index.js -o dist/index.js -w",
     "prebuild": "npm run clean",
     "build": "lerna exec -- rollup -c=../../rollup.config.js",
-    "clean": "lerna exec -- rimraf dist es webDist"
+    "clean": "lerna exec -- rimraf dist",
+    "prepublishOnly": "npm run build",
+    "publish": "lerna publish"
   },
   "repository": {
     "type": "git",
@@ -76,6 +78,13 @@
   },
   "jest": {},
   "dependencies": {
+    "d3": "^5.9.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
+  "peerDependencies": {
+    "d3": "^5.9.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "styled-components": "^4.2.0"

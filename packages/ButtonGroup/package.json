@@ -23,5 +23,8 @@
   },
   "bugs": {
     "url": "https://github.com/yurikrupnik/mono-components/issues"
+  },
+  "dependencies": {
+    "pill-button": "0.0.4"
   }
 }
