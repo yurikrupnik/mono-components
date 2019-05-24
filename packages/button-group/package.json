@@ -1,12 +1,15 @@
 {
   "name": "@krupnik/button-group",
   "version": "0.0.5",
-  "description": "> TODO: description",
+  "description": "React button-group - created by pill-button",
   "author": "yurikrupnik <krupnik.yuri@gmail.com>",
   "homepage": "https://github.com/yurikrupnik/mono-components/tree/master/packages/ButtonGroup#readme",
   "license": "ISC",
   "main": "dist/umd/index.js",
   "module": "dist/esm/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -26,5 +29,6 @@
   },
   "dependencies": {
     "pill-button": "0.0.4"
-  }
+  },
+  "gitHead": "871461c14be93b4c10b41030d7301df37ea3e113"
 }
