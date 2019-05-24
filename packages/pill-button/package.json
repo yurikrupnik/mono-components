@@ -12,6 +12,7 @@
   "module": "dist/esm/index.js",
   "peerDependencies": {
     "@material-ui/core": "^3.*",
+    "@material-ui/core/Button": "^3.*",
     "prop-types": "^15.*",
     "react": "^16.8.*",
     "styled-components": "^4.*"
