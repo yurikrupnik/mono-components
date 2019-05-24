@@ -5,7 +5,7 @@
   "author": "yurikrupnik <krupnik.yuri@gmail.com>",
   "homepage": "https://github.com/yurikrupnik/mono-components/tree/master/packages/PillButton#readme",
   "license": "ISC",
-  "main": "dist/cjs/index.js",
+  "main": "dist/umd/index.js",
   "module": "dist/esm/index.js",
   "directories": {
     "lib": "lib",

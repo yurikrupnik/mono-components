@@ -9,6 +9,7 @@ import path from 'path';
 // import { terser as terserPlugin } from 'rollup-plugin-terser';
 import sass from 'rollup-plugin-sass';
 import resolve from 'rollup-plugin-node-resolve';
+import visualizer from 'rollup-plugin-visualizer';
 // import analyze from 'rollup-plugin-analyzer';
 import babel from 'rollup-plugin-babel';
 
@@ -38,7 +39,7 @@ const plugins = [
     sass({
         // insert: true
     }),
-    // analyze()
+    visualizer()
 ];
 // console.log('PACKAGE_ROOT_PATH', PACKAGE_ROOT_PATH);
 
