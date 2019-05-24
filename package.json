@@ -4,13 +4,12 @@
   "description": "mono-components using material",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "te": "lerna exec --parallel -- jest",
     "pretest": "lerna exec --parallel -- eslint lib",
-    "watch": "lerna exec --parallel -- rollup -f cjs -i lib/index.js -o dist/index.js -w",
-    "prebuild": "npm run clean",
+    "test": "jest",
+    "prebuild": "lerna exec -- rimraf dist",
+    "prewatch": "npm run prebuild",
     "build": "lerna exec -- rollup -c=../../rollup.config.js",
-    "clean": "lerna exec -- rimraf dist",
+    "watch": "lerna exec -- rollup -c=../../rollup.config.js -w",
     "prepublishOnly": "npm run build",
     "publish": "lerna publish"
   },
@@ -41,6 +40,7 @@
     "coveralls": "^3.0.3",
     "css-hot-loader": "^1.4.4",
     "css-loader": "^2.1.1",
+    "d3": "^5.9.2",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-loader": "^2.1.2",
@@ -56,6 +56,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "ramda": "^0.26.1",
     "ramda-extension": "^0.7.2",
+    "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-testing-library": "^7.0.0",
     "regenerator-runtime": "^0.13.2",
@@ -71,22 +72,20 @@
     "rollup-plugin-visualizer": "^1.1.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
+    "styled-components": "^4.2.0",
     "terser-webpack-plugin": "^1.2.4",
     "webpack": "^4.31.0",
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.3.2"
   },
   "jest": {},
-  "dependencies": {
-    "d3": "^5.9.2",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "styled-components": "^4.2.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "d3": "^5.9.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "@material-ui/core": "^3.*",
+    "@material-ui/core/Button": "^3.*"
   }
 }

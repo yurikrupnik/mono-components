@@ -21,7 +21,7 @@ module.exports = (env) => {
 
     return {
         context: path.resolve(process.cwd(), 'lib'),
-        // context: path.resolve(__dirname, 'packages', 'BaseButton', 'lib'),
+        // context: path.resolve(__dirname, 'packages', 'base-button', 'lib'),
         externals: {
             react: 'react',
             'react-dom': 'react-dom',
@@ -39,12 +39,12 @@ module.exports = (env) => {
         target: 'web',
         resolve: {
             extensions: ['.json', '.js', '.jsx', '.css', '.scss', '.vue'],
-            alias: {
-                BaseButton: path.resolve(__dirname, 'packages/BaseButton/index.js'),
-                ButtonGroup: path.resolve(__dirname, 'packages/ButtonGroup/index.js'),
-                PillButton: path.resolve(__dirname, 'packages/PillButton/index.js'),
-                // Templates: path.resolve(__dirname, 'src/templates/')
-            }
+            // alias: {
+            //     BaseButton: path.resolve(__dirname, 'packages/base-button/index.js'),
+            //     button-group: path.resolve(__dirname, 'packages/button-group/index.js'),
+            //     pill-button: path.resolve(__dirname, 'packages/pill-button/index.js'),
+            //     // Templates: path.resolve(__dirname, 'src/templates/')
+            // }
             // alias: {
             //     vue: 'vue/dist/vue.js'
             // }

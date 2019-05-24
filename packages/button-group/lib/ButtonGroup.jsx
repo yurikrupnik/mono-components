@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import BaseButton from 'BaseButton';
-// import PillButton from 'pill-button';
+// import base-button from 'base-button';
+// import pill-button from 'pill-button';
 // np
 const ButtonGroup = (props) => {
     const { data } = props;
@@ -18,5 +18,5 @@ ButtonGroup.propTypes = {
     data: PropTypes.arrayOf(PropTypes.shape({}))
 };
 
-// module.exports = BaseButton
+// module.exports = base-button
 export default ButtonGroup;
