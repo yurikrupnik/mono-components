@@ -15,6 +15,10 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "peerDependencies": {
+    "prop-types": "^15.*",
+    "react": "^16.8.*"
+  },
   "files": [
     "dist"
   ],

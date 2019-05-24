@@ -17,6 +17,10 @@
   "files": [
     "dist"
   ],
+  "peerDependencies": {
+    "prop-types": "^15.*",
+    "react": "^16.8.*"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yurikrupnik/mono-components.git"
