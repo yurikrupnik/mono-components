@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "React pill-button",
   "author": "yurikrupnik <krupnik.yuri@gmail.com>",
   "homepage": "https://github.com/yurikrupnik/mono-components/tree/master/packages/PillButton#readme",
@@ -11,10 +11,10 @@
   "main": "dist/umd/index.js",
   "module": "dist/esm/index.js",
   "peerDependencies": {
+    "@material-ui/core": "^3.*",
     "prop-types": "^15.*",
     "react": "^16.8.*",
-    "styled-components": "^4.*",
-    "@material-ui/core": "^3.*"
+    "styled-components": "^4.*"
   },
   "directories": {
     "lib": "lib",
