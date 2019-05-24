@@ -1,6 +1,6 @@
 {
   "name": "@krupnik/pill-button",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "react base pill button",
   "author": "yurikrupnik <krupnik.yuri@gmail.com>",
   "homepage": "https://github.com/yurikrupnik/mono-components/tree/master/packages/PillButton#readme",
@@ -8,8 +8,8 @@
   "main": "dist/umd/index.js",
   "module": "dist/esm/index.js",
   "peerDependencies": {
-    "react": "^16.8.*",
     "prop-types": "^15.*",
+    "react": "^16.8.*",
     "styled-components": "^4.*"
   },
   "directories": {
