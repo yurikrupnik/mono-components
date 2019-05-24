@@ -1,7 +1,10 @@
 {
   "name": "@krupnik/data-graph",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.5",
-  "description": "> TODO: description",
+  "description": "React data-graph",
   "author": "yurikrupnik <krupnik.yuri@gmail.com>",
   "homepage": "https://github.com/yurikrupnik/mono-components/tree/master/packages/ButtonGroup#readme",
   "license": "ISC",
@@ -24,5 +27,5 @@
   "bugs": {
     "url": "https://github.com/yurikrupnik/mono-components/issues"
   },
-  "gitHead": "871461c14be93b4c10b41030d7301df37ea3e113"
+  "gitHead": "2e5267b6cf1dc642149a00c982103920208ddf36"
 }

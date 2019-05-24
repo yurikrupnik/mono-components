@@ -1,5 +1,8 @@
 {
   "name": "mono-components",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.0",
   "description": "mono-components using material",
   "main": "index.js",
