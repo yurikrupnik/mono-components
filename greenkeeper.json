@@ -1,0 +1,13 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "packages/base-button/package.json",
+        "packages/button-group/package.json",
+        "packages/data-graph/package.json",
+        "packages/pill-button/package.json"
+      ]
+    }
+  }
+}
